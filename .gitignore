@@ -1,0 +1,13 @@
+# Entornos
+.venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+
+# Datos grandes o sensibles
+data/raw/*.csv
