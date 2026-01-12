@@ -1,0 +1,90 @@
+Te entregan un dataset con información de ventas del último año y 
+te piden analizar el rendimiento del negocio y extraer insights para la toma de decisiones.
+
+Analizar las ventas para identificar patrones, productos clave, 
+regiones más rentables y nivel de satisfacción del cliente.
+
+PARTE 1: Carga y exploración de datos
+Tareas
+-Carga el dataset con pandas
+Muestra:
+-Las primeras 5 filas
+-Las últimas 5 filas
+Revisa:
+-Tipos de datos
+-Valores nulos
+-Duplicados
+-Convierte la columna fecha a tipo datetime
+Preguntas
+¿Cuántas filas y columnas tiene el dataset?
+¿Hay datos faltantes? ¿En qué columnas?
+
+
+PARTE 2: Limpieza de datos
+Tareas
+Elimina duplicados si existen
+Maneja valores nulos:
+Precio o cantidad → eliminar filas
+Satisfacción → reemplazar por el promedio
+Crea una nueva columna:
+total_venta = precio * cantidad
+
+PARTE 3: Análisis exploratorio (EDA)
+Análisis general
+Ventas totales del año
+Venta promedio por pedido
+Número total de clientes únicos
+
+Por categoría
+Ventas totales por categoría
+Categoría con mayor ingreso
+Cantidad promedio vendida por categoría
+
+Por región
+Ventas totales por región
+Región más rentable
+Ticket promedio por región
+
+PARTE 4: Visualización de datos
+Crea al menos 5 gráficos:
+Barras: ventas totales por categoría
+Barras: ventas totales por región
+Línea: ventas mensuales
+Boxplot: distribución del total de venta
+Barras: promedio de satisfacción por categoría
+Bonus: usa colores, títulos y etiquetas claras.
+
+PARTE 5: Análisis temporal
+Tareas
+Extrae:
+Mes
+Año
+Calcula ventas por mes
+
+Identifica:
+Mes con más ventas
+Mes con menos ventas
+
+Preguntas
+¿Existen tendencias?
+¿Hay estacionalidad?
+
+PARTE 6: Análisis de satisfacción del cliente
+Tareas
+Promedio de satisfacción general
+Satisfacción promedio por:
+Categoría
+Región
+Relación entre:
+Total de venta y satisfacción
+
+Preguntas
+¿Las categorías con más ventas tienen mejor satisfacción?
+¿Alguna región tiene baja satisfacción?
+
+PARTE 7: Conclusiones e insights
+Reacta mínimo 5 conclusiones, por ejemplo:
+Categorías más rentables
+Regiones con oportunidad de mejora
+Relación ventas–satisfacción
+Recomendaciones de negocio
